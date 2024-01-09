@@ -157,3 +157,6 @@ Local-only=仅本地
 This experience has been designed for in-game voice chat, so I recommend giving it a try.\n\n=建议启用游戏内语音，以获得更佳游戏体验\n\n
 
 No available servers to join.=没有可用的服务器可以加入。
+Enter server tag...=输入服务器标签...
+With challenge moon=包含卫星挑战
+Search or Enter a room code...=搜索或输入房间代码
