@@ -1,0 +1,37 @@
+﻿# 生物类
+
+Half=半身怪
+Crawler=半身怪
+Manticoil=山雀
+Roaming locusts=漫游蝗虫
+Hoarding bug=囤积虫
+Hoarding Bug=囤积虫
+Spore lizard=孢子蜥蜴
+Spore Lizard=孢子蜥蜴
+Puffer=孢子蜥蜴
+Hygrodere=史莱姆
+Blob=史莱姆
+Bunker spider=洞穴蜘蛛
+Bunker Spider=洞穴蜘蛛
+Circuit bees=电路蜜蜂
+Red bees=电路蜜蜂
+Red Bees=电路蜜蜂
+Forest keeper=森林守护者
+Earth leviathan=地球利维坦
+Baboon hawk=狒狒鹰
+Snare flea=抱脸虫
+Snare Flea=抱脸虫
+Centipede=抱脸虫
+Bracken=花人布雷肯
+Coil-head=弹簧头
+Eyeless dog=无眼狗
+Thumper=半身鱼
+Jester=小丑
+Ghost girl=幽灵女孩
+Landmine=地雷
+Jeb=杰布
+Turret=炮塔
+Forest Giant=森林巨人
+LASSO=LASSO
+Nutcracker=胡桃夹子
+Masked=面具人

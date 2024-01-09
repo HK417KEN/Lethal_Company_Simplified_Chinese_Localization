@@ -1,0 +1,15 @@
+Hit Enemys=痛击敌人
+Spary Paint=喷漆罐
+Mark A Trail=标下路线
+Make Sure to Charge me!=一定要给我充电！
+Flashlight But Better=手电筒，但这个更好
+Boots'n-cats'n..=Boots'n-cats'n..
+Stun Enemies=击晕敌人
+KABOOM!=咔BOOM！
+Good for Headaches=对头痛有好处
+Deploy With Care=小心部署
+Communicate Easy=容易沟通
+Who Needs Keys?=谁需要钥匙？
+WEEEE!=WEEEE!
+
+

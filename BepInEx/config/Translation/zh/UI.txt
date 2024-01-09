@@ -1,0 +1,208 @@
+﻿# UI
+
+r:"^Picking lock: (.+?)sec"=正在解锁：$1秒 
+RECEIVING SIGNAL=接收信号
+Welcome! Version 45 is out now.\nOthers must update their game to play with you on this version.\n\n\nGood luck!=欢迎！\n这个补丁包含了可重玩的卫星挑战和新的设施走廊类型，以及对现有的生物的一些调整。\n其他人必须更新他们的游戏才能在此版本上与您一起游玩。\n祝你好运！
+Version 45 is out!=版本 45 发布了！
+The server host disconnected.=与服务器断开连接
+Kick=踢出
+Cancel=取消
+[LIFE SUPPORT: OFFLINE]=[生命维持系统：离线]
+(Dead)=（死亡）
+Stats=统计
+QUOTA REACHED!=指标已达到！
+NEW PROFIT QUOTA:=新的目标金额：
+PERFORMANCE REPORT=绩效报告
+Locked=已锁定
+Inventory full!=物品栏已满！
+Paycheck!=工资条！
+Quota=指标
+Fines=罚款
+EMPLOYEE RANK=员工等级
+Option A=选项 A
+Press "/" to talk.=按 "/" 输入文字。
+Push to talk:=按键通话：
+Value: ???=价值： ？？？
+Value : ???=价值 ： ？？？
+HANDS FULL=双手都拿着东西了
+Typing...=输入中...
+Change suit=更换制服
+CREW:=队伍：
+BROADCASTED SPECIAL CODE=广播特殊代码
+Door controls=舱门控制器
+DOOR HYDRAULICS:=舱门液压系统：
+DEADLINE:\n NOW=截止日期：\n现在！！
+
+r:"^Welcome to\n(.+)$"=欢迎来到\n$1
+AS MUCH PROFIT AS POSSIBLE=尽可能多的利润
+
+CHALLENGE RESULTS:=挑战结果：
+Your rank:=你的排名：
+Your rank: =你的排名： 
+(See how you compare to friends in the main menu leaderboard!)=（在主菜单排行榜中看看你和朋友们的比较！）
+
+
+r:"^\'(.+)\'$"=「$1」
+r:"^\s*\:\s*$"=：
+r:"^\'(.+)\'$"=「$1」
+r:"\:$"=：
+
+r:"^([\w\W]{1,14})$"=$1
+r:"^([\w\W]{1,14})\s*joined the ship(.+?)$"=$1 来到了飞船
+r:"^([\w\W]{1,14})\s*disconnected(.+?)$"=$1 已断开连接
+
+r:"^Found journal entry: (.+)$"=找到日記： $1 
+r:"^Kick out (.+)?$"=你确定要踢出 $1 ？
+r:"^(.*) EXP$"=$1 经验值
+r:"^(.+) casualties: (.+)\n\((.+) bodies recovered\)$"=$1 人伤亡：$2\n（找回 $3 具尸体）
+r:"^(.+) (Days|Day) Left$"=剩余 $1 天
+r:"^Casualties \((.+)\): (.+)$"=伤亡 ($1)：$2
+r:"^\nSHIP\: (.+)$"=飞船： $1
+r:"^(.*?)\s*\n\s*AM"=上午 $1
+r:"^(.*?)\s*\n\s*PM"=下午 $1
+
+r:"^([0-9]+) lb$"=$1 磅
+r:"^(\$[0-9]+)\nDays: ([0-9]+)$"=$1\n天数: $2
+r:"^(Current input device: \n)(.*)$"=当前麦克风装置：$2
+r:"^\(([0-9]+)/([0-9]+) Votes\)$"=($1/$2 票)
+r:"^CELESTIAL BODY: (.+?)$"=星球：$1
+r:"^DEADLINE:\n([0-9]+) Days$"=截止日期：\n$1 天
+r:"^DUE: (\$[0-9]+)$"=罚款：$1
+r:"^File ([0-9]+)$"=存档 $1
+r:"^PROFIT QUOTA:\n(\$[0-9]+) / (\$[0-9]+)$"=目标：\n$1 / $2
+r:"^Random seed: ([0-9]+)$"=随机种子：$1
+r:"^Value: (.+)"=价值：$1
+r:"^VALUE: (.+)"=价值：$1
+r:"^TOTAL: (.+)$"=总价值： $1
+r:"^\[Cooldown: (.+) sec.\]$"=[冷却时间剩下 $1 秒]
+r:"^Body of (.+)$"=$1 的尸体
+r:"^Overtime bonus: (.+)$"=加班奖金： $1
+r:"^\(Spectating: (.+)\)$"=(正在旁观： $1)
+r:"^\(Spectating: \)$"=(正在旁观： )
+r:"^MONITORING: (.+)$"=正在监控： $1
+r:"^(.+?)\s*was left behind."=$1 被抛弃了
+r:"^(.+?)\s*started the ship."=$1 启动了飞船
+r:"^Ping: (.+)$"=Ping：
+r:"^Days on the job: (.+?)\nScrap value collected: (.+?)\nDeaths: (.+?)\nSteps taken: (.+?)$"=总工作日数：$1\n总收集金额：$2\n总死亡次数：$3\n总步数：$4
+r:"^WARNING! Please return by (.+). A vote has been cast, and the autopilot ship will leave early.$"=警告！\n请在 $1 之前返回。\n投票已经进行，自动驾驶飞船将提早离开。
+
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.+?)$"=地点：$1\n人口：$2\n环境：$3\n生态圈：$4\n$5
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\nWeather: (.+?)$"=地点：$1\n人口：$2\n环境：$3\n生态圈：$4\n天气：$5
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=地点：$1\n人口：$2\n环境：$3\n生态圈：$4
+sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.+?)$"=人口：$2\n环境：$3\n生态圈：$4\n$5
+sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=人口：$1\n环境：$2\n生态圈：$3
+
+
+sr:"^Cause of death: (.+)$"=死亡原因： $1
+Gunshots=枪杀
+Blast=爆破
+Mauling=撕咬
+Strangulation=殴打
+Bludgeoning=重击
+Gravity=摔死
+Suffocation=窒息
+
+
+
+# Hint
+
+(Some were too far to receive your message.)=（有些人离你太远，无法接收您的消息。）
+Change: Green suit=更换制服：绿色套装
+Change: Pajama suit=更换制服：睡衣套装
+Change: Hazard suit=更换制服：危险套装
+Got scrap!=得到废品！
+ALERT!=警报！
+Drop your metallic items now! A static charge has been detected. You have seconds left to live.=立即放下金属物品！\n已经检测到了静电荷。\n您还有几秒钟可以存活。
+Ship leaving in one hour=飞船将在一小时内撤离
+Use the ship computer terminal to access secure doors.=使用飞船控制终端来开启安全门。
+Alert! The autopilot is leaving due to dangerous conditions.=警报！\n由于情况危险，自动驾驶仪将操控撤离。
+The Company must minimize risk of damage to proprietary hardware. Goodbye!=公司必须最小化专有硬件受损的风险。\n再见！
+WARNING!!! The autopilot ship will leave at midnight. Please return quickly.=警告！！！\n自动驾驶已激活，飞船将于午夜撤离。\n请迅速返回。
+Warning! No response from crew, which has not returned. Emergency code activated.=警告！\n船员没有回应且无人返回。\n紧急代码激活。
+PILOT COMPUTER=飞船自动系统
+VISIBILITY LOW!\n\nSteam leak detected in area=能见度低！\n区域内检测到蒸汽泄漏
+Sell scrap for cash.=出售废品以换取现金。
+Voted for ship to leave early=投票决定飞船提早离开
+TIP:=提示：
+CRITICAL INJURY=严重受伤
+Waiting for crew...=等待其他船员...
+SYSTEMS ONLINE=系统在线
+TO MEET PROFIT QUOTA=达到利润金额
+Items missed!=物品已丢失！
+Item collected!=物品已收集！
+Item stored!=物品已储存！
+Buy flashlights and travel to new planets!=购买手电筒并前往新星球！
+Can't stay closed forever=没办法一直关着门
+The vehicle returned with your purchased items. Our delivery fee cannot be refunded.=我们的送货装置已退还您购买的物品。\n我们的运费无法退还。
+New creature data sent to terminal!=新的生物数据已发送至终端机！
+The autopilot will now attempt to fly to the closest safe spaceport. Your items have been lost.=自动驾驶仪现在将尝试飞向最近的安全太空港。\n您的物品丢失了。
+To sell, use the terminal to route the ship to the company building.=如想出售物品，请使用控制终端将飞船导航至公司大楼。
+YOU ARE FIRED.=你被开除了
+You did not meet the profit quota before the deadline.=你未能在截止日期前达到目标金额
+
+
+
+# Item hint
+
+Training manual=培训手册
+Useful info!=有用的信息!
+Terminal=终端
+Lands the ship.=将飞船着陆。
+
+
+
+# Level
+
+Boss=老板
+Leader=领导者
+Intern=实习生
+Employee=正式员工
+Part-timer=兼职人员
+
+
+
+# Start Menu/Setting
+
+(Cannot hold until ship has landed)=（请等待主机开始游戏）
+(Requires battery-powered item)=(需要使用电池供电的物品)
+
+Value: =價值：
+
+Charges batteries=给电池充电
+
+# Result
+sr:"^Notes:\s?\\n(\*\s*.*?)(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[^\\n]$"=筆記：\n$1\n$2\n$3
+sr:"^Notes:\s?\\n(\*\s*.*?)(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[\\n]$"=筆記：\n$1\n$2\n$3
+
+\* Most lazy employee=* 最懶惰的員工
+\* Most lazy employee.=* 最懶惰的員工
+\* The laziest employee=* 最懶惰的員工
+\* The laziest employee.=* 最懶惰的員工
+
+
+* Most profitable=* 最會賺錢的員工
+* Most profitable=* 最會賺錢的員工
+* Most profitable.=* 最會賺錢的員工
+
+* Most paranoid employee=* 最固執的員工
+* Most paranoid employee.=* 最固執的員工
+* The most paranoid employee=* 最固執的員工
+* The most paranoid employee.=* 最固執的員工
+
+
+* Sustained the most injuries=* 受傷嚴重的員工
+* Sustained the most injuries.=* 受傷嚴重的員工
+
+
+Right-click to scan objects in the ship for info.=右键单击扫描船上的对象以获取信息。
+The file will NOT save! Your ship must be in orbit.=该文件将不会保存！\n您的飞船必须在轨道上。
+Press B to move and place objects in the ship, E to cancel.=按B移动并将对象放在船上，E取消。
+
+
+Fell to their death.=高处摔死
+Went out with a bang.=被炸飞了
+Couldn't wait for their items.=死于没有耐心
+Was eaten by an Eyeless Dog.=被一只无眼犬吃掉
+auled to death.=被殴打死亡
+Abandoned by their coworkers.=被同事抛弃
+Electro-stung to death by Circuit Bees.=被电路蜜蜂电死

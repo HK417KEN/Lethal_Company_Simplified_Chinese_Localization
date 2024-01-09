@@ -1,0 +1,234 @@
+﻿# MoreCompany
+Crew Size:=人数限制：
+Cosmetics Enabled:=启用装饰品：
+
+
+
+# 观察敌人
+通知飞船提前撤离：[右键]（长按）\n\n\n\n\nSwitch to Enemies: [E]\nToggle Flashlight : [RMB] (Click)\nConfig Menu : [Insert]=通知飞船提前撤离：[右键]（长按）\n\n\n\n\n切换到敌人：[E]\n切换手电筒：[右键]（单击）\n配置菜单：[Insert]
+通知飞船提前撤离：[右键]（长按）\n\n\n\n\nSwitch to Players: [E]\nToggle Flashlight : [RMB] (Click)\nConfig Menu : [Insert]=通知飞船提前撤离：[右键]（长按）\n\n\n\n\n切换到玩家：[E]\n切换手电筒：[右键]（单击）\n配置菜单：[Insert]
+\n\n\n\n\nSwitch to Enemies: [E]\nToggle Flashlight : [RMB] (Click)\nConfig Menu : [Insert]=\n\n\n\n\n切换到敌人：[E]\n切换手电筒：[右键]（单击）\n配置菜单：[Insert]
+\n\n\n\n\nSwitch to Players: [E]\nToggle Flashlight : [RMB] (Click)\nConfig Menu : [Insert]=\n\n\n\n\n切換到玩家：[E]\n切换手电筒：[右键]（单击）\n配置菜单：[Insert]
+飞船将在一小时内撤离\n\n\n\n\nSwitch to Players: [E]\nToggle Flashlight : [RMB] (Click)\nConfig Menu : [Insert]=飞船将在一小时内撤离\n\n\n\n\n切換到玩家：[E]\n切换手电筒：[右键]（单击）\n配置菜单：[Insert]
+飞船将在一小时内撤离\n\n\n\n\nSwitch to Enemies: [E]\nToggle Flashlight : [RMB] (Click)\nConfig Menu : [Insert]=飞船将在一小时内撤离\n\n\n\n\n切换到敌人：[E]\n切换手电筒：[右键]（单击）\n配置菜单：[Insert]
+
+
+
+#Bigger Lobby
+Max players (16)...=最大玩家（16 人）..
+
+
+
+# Better Scan
+
+sr:"^(.+): (.+)\n(.+): (.+)\n\nTotal Scanned: (.+) Ship Total: (.+)"=$1：$2\n$3：$4\n扫描总价值：$5$ \n船上总价值：$6$
+r:"^\nTotal Scanned: (.+) Ship Total: (.+)"=\n扫描总价值：$1$ \n船上总价值：$2$
+
+
+
+#HUD
+r:"^*(.+) \((.+) remaining\)$"=$1（剩余时间 $2）
+r:"^(.+?)\s*Interact\r\n(.+?)\s*Flash \(Radar\)\r\n$"=$1 互动\r\n$2 启动闪光(雷达)
+r:"^(\d+)<size(.+)75%><voffset(.+)1>%<\/voffset><\/size>\s\|\s([+-]?\d+(\.\d+)?)<size(.+)75%>\/sec<\/size>$"=$1% | $4/秒
+
+r:"^(.+)<size\=60%>lb</size>$"=$1 <size\=60%>磅</size>
+
+
+
+#
+
+r:"^Page (.+?)\/(.+?)$"=第$1/$2页
+r:"^DAY:\n(.+?)$"=天数：\n$1
+r:"^CREDITS:\n(.+?)$"=可用金钱：\n$1
+r:"^TIME:\n(.+?)$"=时间：\n$1
+
+No enemies to spectate=没有敌人可以观察
+Night Vision Battery=夜视仪电量
+
+r:"^Send voice\s*:\s*(.+)(.+)$"=发送语音：$1$2
+r:"^Toggle light\s*:\s*(.+)(.+)$"=开关手电：$1$2
+r:"^Free from head\s*:\s*(.+)$"=帮助解开：$1
+r:"^Throw\s*:\s*(.+)$"=投掷：$1
+r:"^Swing hammer\s*:\s*(.+)$"=挥动槌子：$1
+r:"^Switch target\s*:\s*(.+)$"=切换目标：$1
+r:"^Turn on\s*:\s*(.+)$"=开关：$1
+r:"^Input value\s*:\s*(.+)$"=输入值：$1
+r:"^Select target\s*:\s*(.+)$"=选择目标：$1
+r:"^Toggle Music\s*:\s*(.+)$"=开关音乐：$1
+r:"^Meow\s*:\s*(.+)$"=喵喵叫：$1
+
+The teleporter button has suffered irreparable damage and destroyed itself!=传送器按钮遭受了无法弥补的损害并摧毁了自己！
+
+
+
+#UI
+sr:"^Orbiting: (.+)\nWeather: \<color\=\#([0-9A-Fa-f]{6})\>(.*?)\<\/color\>\nPOPULATION: (.+)\nCONDITIONS: (.+)\nFAUNA: (.+)$"=星球：$1\n天气：<color\=#$2>$3</color>\n人口：$4\n环境：$5\n生态圈：$6
+r:"^MOON IS AT (.+?) HEAT$"=星球热气达到$1
+r:"^(.+?)<size\=60%>lb</size>$"=$1<size\=60%> 磅</size>
+r:"^(.+)<size\=75%><voffset\=1>%<\/voffset><\/size>\s*\|\s*((\-|\+)(.+))<size\=75%>\/sec<\/size>$"=$1<size\=75%><voffset\=1>%</voffset></size> | $2<size\=75%>/秒</size>
+r:"^Change: (.+)$"=更换制服：$1
+TOTAL:=总价值：
+
+Orbiting: 71 Gordion\nWeather: <color\=#69FF6B>None</color>\nPOPULATION: Unknown\nCONDITIONS: No land masses. Continual storms.\nFAUNA: Unknown\nWhere the Company resides.=星球：71 Gordion\n天气：<color\=#69FF6B>无</color>\n人口：未知\n环境：没有陆地。持续的风暴。\n生态圈：公司居住地。
+
+r:"^SHIP: \$([0-9]+)$"=船内: $$$1
+
+> Lobby Code=> 房间代码
+(Copied to clipboard!)=（已复制到剪贴板！）
+
+New File=新存档
+
+Set Crosshair=设置准星
+
+
+
+# More Emotes
+
+> More Emotes=> 更多动作
+
+Remap=按键绑定
+Quick Emotes=快捷动作
+Settings=设置
+Inventory Check=物品栏检查
+Prevents some emotes from performing while holding items/scrap=阻止在拿着物品/废料时执行某些动作
+Prevents some emotes \nfrom performing while\nholding items/scrap=阻止在拿着物品/废品时执行某些动作
+
+WAITING FOR KEY=等待按键
+
+
+
+#Event
+
+THEY ARE PAYING\nTHE PRICE=他们正在付出代价
+EVENT=随机事件
+
+They are EVOLVING?!?=它们正在进化?!?
+Spring Escape!=弹簧头逃生!
+Minescape Terror=地雷地狱
+The Hunger Games?=饥饿游戏?
+When did we get this installed?!?=我们什么时候装这个?!?
+Hoarder Town=蟑螂镇
+Don't look... away?=看也不对，不看也不对?
+All Moons Heat Reset=所有星球热气重设
+Pop goes the.. HOLY FUC-=弹出来...瓦勒个去!
+Outside the box!=今天是相反日！
+UNFAIR COMPANY=这不公平！
+The shadows are roaming=那暗影正在游荡
+The Beasts Inside!=野兽在顾家
+They just wants to play!!=她们只是想跟你玩!!
+The Rumbling!=进击的巨人！
+Bring a Shovel!!=记得带铲子!!
+The surface is explosive=地表到处都是地雷
+They gaurd this place!=他们死守住这里！
+ICE SCREAM!!!=冰淇淋！！！
+Turret Terror=机枪地狱
+Nothing Happened Today=今天什么事都没有
+Bling bling=亮晶晶
+Got any stock?=还有金块吗?
+Since when can they move?!=什么时候他们会动了?!
+Did someone give them wheels?=哪个手贱的帮他们装轮子?!
+So many gold bars! ...right?=这么多金条！ ... 对吧?
+
+Moonheat is rising and caused it to rain. =星球热气上升导致下雨
+\nVisit other moons to decrease your moon heat!=\n建议去其他星球来降低此星球的热气
+ You survived another day! Here's free cash c: =你幸存了一天！\n这是你的奖励 C:
+ That was Brutal! No free cash today :c =现实是很残酷的！\n今天没有奖励 :C
+Moonheat is rising causing a layer of fog. =星球热气的上升导致出现一团雾
+Extremely high moonheat detected causing dangerous weather. =检测到极高的星球热气导致极端天气
+Moonheat is HOT, flooding the moon to cool it off. =星球非常热，需要让星球淹水降温
+Welcome to the Company Buidling!=欢迎来到公司大楼！
+The Moon is overheated and now hostile creatures roam it.=星球已经过热，现在到处都是地对生物。
+Press Z to toggle Night Vision!!!=按下 Z 使用夜视仪！！！
+They used to say Fort Knox was buried here...=人们常说诺克斯堡就埋在这里...
+Outsourcing at its finest=最好的外包服务
+
+
+
+#Item
+
+r:"^(.+?)\s*Plush$"=$1 毛绒娃娃
+
+Glizzy=热狗
+Dart=飞镖
+Maxwell=Maxwell 猫猫
+Toy Hammer=玩具锤
+Emergency Flare=紧急信号弹
+Remote Radar=远程雷达
+Hacking Tool=黑客工具
+Advanced Portable Tele=高级便携型传送装置
+Toggle test room=切换测试室
+Spawn creature=产卵生物
+Inside=里面
+Portable Tele=抛弃式传送装置
+Gremlin Can=Gremlin 汽水
+Gremlin Energy=Gremlin 能量饮料
+Revolver=左轮手枪
+Shells=弹药
+Emergency Flare (ammo)=信号弹（弹药）
+Flaregun=信号发射器
+Rocket Launcher=火箭发射器
+Night Vision Goggles=夜视仪
+Peeper=监视器
+Thumper Sample=半身怪样本
+Baboon Hawk Sample=狒狒鹰样本
+Eyeless Dog Sample=无眼犬样本
+Bracken Sample=花男样本
+Arson Plush (Dirty)=Arson 毛绒娃娃（脏的）
+Hoarding Bug Sample=囤积虫样本
+Bunker Spider Sample=碉堡蜘蛛样本
+Snare Flea Sample=陷阱跳蚤样本
+Keep your items!=保留你的物品！
+Advanced Portable Teleporter=高级便携型传送装置
+For throwing purposes.=就是拿来丢的
+
+r:"^Bigger Lungs is active!$"=耐力增强已启用！
+Running Shoes is active!=速度加成已启用！
+Strong Legs is active!=跳跃加成已启用！
+NV Headset Batteries is active!=夜视仪电池已启用！
+Discombobulator is active!\nType 'cooldown' into the terminal for info!!!=诱饵攻击已启用！\n在终端机打上「cooldown」来获取更多资讯！
+Hunter is active!=猎人职业已启用！
+Back Muscles is active!=负重增强已启用！
+Stimpack is active!=血量增强已启用！
+Tyzeron.Minimap/0/VersionResp/1.0.5=Tyzeron.Minimap/0/VersionResp/1.0.5
+Tyzeron.Minimap/0/VersionReq/null=Tyzeron.Minimap/0/VersionReq/null
+volunteered as Tribute!=自告奋勇献上自己！
+
+
+
+# CompatibilityChecker
+r:"^Loading mods ([0-9/]+)"=正在加载模组 $1
+
+# LCItemValue
+r:"^ITEMS VALUE :(.*)$"=携带: $1
+
+
+
+# RemoteRemastered
+
+Toggle Door/Disable Turret/Mine=开关门 / 禁用炮塔 / 禁用地雷
+Show weather of moons=显示星球的天气
+Show Weather=显示天气
+Go To Moon=去该星球
+Scan scraps in current moon=扫描当前星球的废品
+Scan=扫描
+
+
+
+# OuijaBoard
+
+Ouija Board=通灵板
+Ouija Board =通灵板 
+Press 'o' when dead=死亡后按'o'使用
+
+
+
+# LandMinePlacer
+
+LANDMINE PLACER=地雷放置装置
+Landmine Placer=地雷放置装置
+Infinite Landmines=无限地雷
+r:"^([0-9]+) Landmines remaining$"=剩余 $1个 地雷
+r:"^Press (.+?) to place a landmine$"=按 $1 放置一个地雷
+
+
+

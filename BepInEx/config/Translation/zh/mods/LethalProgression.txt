@@ -1,0 +1,37 @@
+r:"^Level:(.*)$"=等级: $1
+r:"^You\'ve made\.\.(.*)$"=你创造了.. $1
+> Skills=> 技能
+Upgrades:=点数：
+Level Up! Spend your skill points.=升级了！记得花费你的点数。
+(Pause Menu -> Skills)=(暂停菜单 -> 技能)
+Level up to earn more skill points. You can level up by picking scrap and killing enemies.=升级可获得更多技能点数。你可以通过拾取废品和杀死敌人来升级。
+
+HPR:=生命:
+Health Regen=生命回复
+r:"^\(\+([0-9.]+)\% Health Regeneration\)$"=(+$1% 生命回复)
+The company installs a basic healer into your suit, letting you regenerate health slowly. Only regenerate up to 100 HP.=该公司在你的套装中安装了一个基本的治疗师，让你慢慢恢复健康。最多只能再生100点生命。
+
+STM:=耐力:
+Stamina=耐力
+r:"^\(\+([0-9.]+)\% Stamina\)$"=(+$1% 耐力)
+Hours on that company gym finally coming into play. Allows you to run for longer.=公司健身房的锻炼时间终于开始发挥作用了。让你跑得更久。
+
+BAT:=电池:
+Battery Life=电池寿命
+r:"^\(\+([0-9.]+)\% Battery Life\)$"=(+$1% 电池寿命)
+The company provides you with better batteries. Replace your batteries AT THE SHIP'S CHARGER to see an effect.=公司为你提供更好的电池。用船上的充电器更换你的电池来看看效果。
+
+HND:=插槽
+Hand Slot=插槽
+r:"^\(\+([0-9.]+)\% Hand Slots\)$"=(+$1% 插槽)
+The company finally gives you a better belt! Fit more stuff! (Reach 100% for one slot.)=公司终于给了你一条更好的腰带！能带更多的东西！（一个插槽100%。）
+
+VAL:=价值:
+Loot Value=战利品价值
+r:"^\(\+([0-9.]+)\% Loot Value\)$"=(+$1% 战利品价值)
+The company gives you a better pair of eyes, allowing you to see the value in things.=公司给你一双更好的眼睛，让你看到事物的价值。
+
+OXY:=氧气:
+Oxygen=氧气
+r:"^\(\+([0-9.]+)\% Extra Oxygen\)$"=(+$1% 额外的氧气)
+The company installs you with oxygen tanks. You gain extra time in the water. (Start drowning when the bar is empty.)=公司会为您安装氧气罐。你在水里可以获得额外的时间。（氧气条空了就会淹死。）

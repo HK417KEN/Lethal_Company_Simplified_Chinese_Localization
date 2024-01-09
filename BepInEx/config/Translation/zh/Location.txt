@@ -1,0 +1,43 @@
+﻿# 地图信息
+
+HAZARD LEVEL:=危险等级：
+
+Dangerous entities have been rumored to take residence in the vast network of tunnels.=据传危险的实体居住在庞大的隧道网络中。
+Frozen, rocky. This moon was mined for resources. It's easy to get lost here.=冰冷，岩石。\n这个卫星被用来开采资源。\n很容易在这里迷路。
+
+None=无
+Safe=安全
+Arid. Thick haze, worsened by industrial artifacts.=干燥。浓雾，因为工业制品而恶化。
+A competitive ecosystem supports aggressive lifeforms.=竞争的生态系统支持侵略性的生命形式。
+Abandoned=遗弃
+Diverse=多样的
+Eclipsed=日食
+Flooded=洪水
+Foggy=多雾
+No land masses. Continual storms.=没有陆地。持续的风暴。
+Expansive. Constant rain.=广阔。持续降雨。
+Ecosystem supports territorial behaviour.=生态系统支持领土行为。
+Dominated by a few species.=由少数动物主导。
+Rainy=下雨
+Where the Company resides.=公司所在地。
+Oxygen critically low!=氧气量非常低！
+Unknown=未知
+Stormy=暴风雨
+21 Offense=21 Offense
+220 Assurance=220 Assurance
+31 March=31 March
+41 Experimentation=41 Experimentation
+56 Vow=56 Vow
+61 March=61 March
+71 Gordion=71 Gordion
+85 Rend=85 Rend
+8 Titan=7 Titan
+7 Dine=7 Dine
+Main entrance=主要入口
+MAIN ENTRANCE=主要入口
+Jagged and weathered terrain. =崎岖且风化的地形。 
+Jagged and weathered terrain.=崎岖且风化的地形。
+Humid. Rough terrain. Teeming with plant-life.=潮湿。崎岖地形。植物生长茂盛。
+Home base=主基地
+Unlikely for complex life to exist=不太可能存在复杂的生活
+Frozen, rocky. Its planet orbits a white dwarf star.=冰冷，岩石。\n它的行星围绕一颗白矮星运行。

@@ -1,0 +1,2 @@
+/Systems/UI/Canvas/IngamePlayerHUD/SpecialHUDGraphics/GlobalNotification/Image/BodyText=ChangeFontSizeByPercentage(2)
+/Systems/UI/Canvas/IngamePlayerHUD/SpecialHUDGraphics/HintPanelContainer/Image/BodyText=ChangeFontSizeByPercentage(1)

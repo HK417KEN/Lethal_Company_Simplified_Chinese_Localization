@@ -1,0 +1,27 @@
+r:"^LOCKED:(.*)$"=已锁定: $1
+
+Keybinds=按键绑定
+Toggle Minimap=开关小地图
+
+Auto Rotate Map=地图自动旋转
+
+r:"^Minimap Size\:(.*)$"=小地图大小: $1
+r:"^X Position Offset\:(.*)$"=X位置偏移: $1
+r:"^Y Position Offset:(.*)$"=Y位置偏移: $1
+r:"^Map Zoom\:(.*)$"=地图缩放: $1
+r:"^Extra Brightness\:(.*)$"=提高亮度: $1
+
+Icons=图标
+
+Show Loots=显示战利品
+Show Enemies=显示敌人
+Show Live Players=显示存活的玩家
+Show Dead Players=显示阵亡的玩家
+Show Radar Boosters=显示雷达发射器
+Show Terminal Codes=显示终端代码
+Show Ship Arrow=显示飞船方向
+
+Select Target=选择目标
+
+r:"Selected Target\:(.*)$"=已选定目标: $1
+Override Ship Controls=覆盖飞船控制
