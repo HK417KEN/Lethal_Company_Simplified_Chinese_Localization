@@ -71,7 +71,7 @@ Welcome! Version 45 is out now.\nOthers must update their game to play with you 
 r:"^Welcome! Version ([0-9]+) is out now.\nOthers must update their game to play with you on this version.\n\nGood luck!$"=欢迎！\n版本$1现在已发布。\n其他人必须更新至最新版本才能与您一起游玩。\n祝你好运！
 r:"^Version ([0-9]+) is out\!$"=版本 $1 发布了！
 Welcome!\nThis patch includes the replayable challenge moons and new factory hallway types, as well as some tweaks to existing creatures.\n\nOthers must update their game to play with you on this version.\n\n\nGood luck!=欢迎！\n这个补丁包含可重玩的卫星挑战和新的工厂走廊类型，以及对现有生物的一些调整。\n\n其他人必须更新他们的游戏才能在此版本上与您一起游玩。\n\n\n祝你好运！
-This is the weekly challenge moon. You have one day and one attempt to make as much profit as possible.=这是每周挑战卫星。你只有一天的时间和只有一次尝试去赚取尽可能多的利润。
+This is the weekly challenge moon. You have one day to make as much profit as possible.=这是每周挑战卫星。你只有一天的时间去赚取尽可能多的利润。
 r:"Could not connect to (.+) servers!"=无法连接 $1 服务器！
 r:"^\$([0-9]+) Collected$"=$$$1 已收集
 Loading ranking...=正在加载排名...
