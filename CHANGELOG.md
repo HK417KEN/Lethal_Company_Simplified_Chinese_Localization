@@ -1,3 +1,7 @@
+# 1.0.5
+
+- 无法处理游戏内字体变黑，恢复 AutoTranslatorConfig.ini 中的 OverrideFontTextMeshPro
+
 # 1.0.4
 
 - AutoTranslatorConfig.ini 中的 OverrideFontTextMeshPro 留空以兼容英文字体排版
