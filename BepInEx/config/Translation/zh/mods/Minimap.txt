@@ -1,5 +1,6 @@
 r:"^LOCKED:(.*)$"=已锁定: $1
 
+Minimap=小地图
 Keybinds=按键绑定
 Toggle Minimap=开关小地图
 

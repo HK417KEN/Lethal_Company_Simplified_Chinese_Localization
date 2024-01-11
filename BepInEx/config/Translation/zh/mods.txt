@@ -62,14 +62,14 @@ The teleporter button has suffered irreparable damage and destroyed itself!=传�
 
 
 #UI
-sr:"^Orbiting: (.+)\nWeather: \<color\=\#([0-9A-Fa-f]{6})\>(.*?)\<\/color\>\nPOPULATION: (.+)\nCONDITIONS: (.+)\nFAUNA: (.+)$"=星球：$1\n天气：<color\=#$2>$3</color>\n人口：$4\n环境：$5\n生态圈：$6
-r:"^MOON IS AT (.+?) HEAT$"=星球热气达到$1
+sr:"^Orbiting: (.+)\nWeather: \<color\=\#([0-9A-Fa-f]{6})\>(.*?)\<\/color\>\nPOPULATION: (.+)\nCONDITIONS: (.+)\nFAUNA: (.+)$"=轨道：$1\n天气：<color\=#$2>$3</color>\n人口：$4\n环境：$5\n生态圈：$6
+r:"^MOON IS AT (.+?) HEAT$"=卫星热气达到$1
 r:"^(.+?)<size\=60%>lb</size>$"=$1<size\=60%> 磅</size>
 r:"^(.+)<size\=75%><voffset\=1>%<\/voffset><\/size>\s*\|\s*((\-|\+)(.+))<size\=75%>\/sec<\/size>$"=$1<size\=75%><voffset\=1>%</voffset></size> | $2<size\=75%>/秒</size>
 r:"^Change: (.+)$"=更换制服：$1
 TOTAL:=总价值：
 
-Orbiting: 71 Gordion\nWeather: <color\=#69FF6B>None</color>\nPOPULATION: Unknown\nCONDITIONS: No land masses. Continual storms.\nFAUNA: Unknown\nWhere the Company resides.=星球：71 Gordion\n天气：<color\=#69FF6B>无</color>\n人口：未知\n环境：没有陆地。持续的风暴。\n生态圈：公司居住地。
+Orbiting: 71 Gordion\nWeather: <color\=#69FF6B>None</color>\nPOPULATION: Unknown\nCONDITIONS: No land masses. Continual storms.\nFAUNA: Unknown\nWhere the Company resides.=轨道：71 Gordion\n天气：<color\=#69FF6B>无</color>\n人口：未知\n环境：没有陆地。持续的风暴。\n生态圈：公司居住地。
 
 r:"^SHIP: \$([0-9]+)$"=船内: $$$1
 
@@ -114,7 +114,7 @@ The Hunger Games?=饥饿游戏?
 When did we get this installed?!?=我们什么时候装这个?!?
 Hoarder Town=蟑螂镇
 Don't look... away?=看也不对，不看也不对?
-All Moons Heat Reset=所有星球热气重设
+All Moons Heat Reset=所有卫星热气重设
 Pop goes the.. HOLY FUC-=弹出来...瓦勒个去!
 Outside the box!=今天是相反日！
 UNFAIR COMPANY=这不公平！
@@ -134,15 +134,15 @@ Since when can they move?!=什么时候他们会动了?!
 Did someone give them wheels?=哪个手贱的帮他们装轮子?!
 So many gold bars! ...right?=这么多金条！ ... 对吧?
 
-Moonheat is rising and caused it to rain. =星球热气上升导致下雨
-\nVisit other moons to decrease your moon heat!=\n建议去其他星球来降低此星球的热气
+Moonheat is rising and caused it to rain. =卫星热气上升导致下雨
+\nVisit other moons to decrease your moon heat!=\n建议去其他卫星来降低此卫星的热气
  You survived another day! Here's free cash c: =你幸存了一天！\n这是你的奖励 C:
  That was Brutal! No free cash today :c =现实是很残酷的！\n今天没有奖励 :C
-Moonheat is rising causing a layer of fog. =星球热气的上升导致出现一团雾
-Extremely high moonheat detected causing dangerous weather. =检测到极高的星球热气导致极端天气
-Moonheat is HOT, flooding the moon to cool it off. =星球非常热，需要让星球淹水降温
+Moonheat is rising causing a layer of fog. =卫星热气的上升导致出现一团雾
+Extremely high moonheat detected causing dangerous weather. =检测到极高的卫星热气导致极端天气
+Moonheat is HOT, flooding the moon to cool it off. =卫星非常热，需要让卫星淹水降温
 Welcome to the Company Buidling!=欢迎来到公司大楼！
-The Moon is overheated and now hostile creatures roam it.=星球已经过热，现在到处都是地对生物。
+The Moon is overheated and now hostile creatures roam it.=卫星已经过热，现在到处都是地对生物。
 Press Z to toggle Night Vision!!!=按下 Z 使用夜视仪！！！
 They used to say Fort Knox was buried here...=人们常说诺克斯堡就埋在这里...
 Outsourcing at its finest=最好的外包服务
@@ -211,10 +211,10 @@ r:"^ITEMS VALUE :(.*)$"=携带: $1
 # RemoteRemastered
 
 Toggle Door/Disable Turret/Mine=开关门 / 禁用炮塔 / 禁用地雷
-Show weather of moons=显示星球的天气
+Show weather of moons=显示卫星的天气
 Show Weather=显示天气
-Go To Moon=去该星球
-Scan scraps in current moon=扫描当前星球的废品
+Go To Moon=去该卫星
+Scan scraps in current moon=扫描当前卫星的废品
 Scan=扫描
 
 

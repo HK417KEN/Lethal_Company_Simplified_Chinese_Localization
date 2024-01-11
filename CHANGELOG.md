@@ -1,3 +1,7 @@
+# 1.0.7
+
+- Moon 将 "星球" 改为 "卫星", orbit 将 "星球" 改为 "轨道"
+
 # 1.0.6
 
 - 新增以下mod翻译：<br>- LethalExpansion<br>- MemeSoundboard<br>- ObjectVolumeController
