@@ -1,3 +1,9 @@
+# 1.0.6
+
+- 新增以下mod翻译：<br>- LethalExpansion<br>- MemeSoundboard<br>- ObjectVolumeController
+
+感谢 SummonHIM 提交的翻译文本 [\[ link \]](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/1)
+
 # 1.0.5
 
 - 无法处理游戏内字体变黑，恢复 AutoTranslatorConfig.ini 中的 OverrideFontTextMeshPro

@@ -92,8 +92,13 @@ Settings=设置
 Inventory Check=物品栏检查
 Prevents some emotes from performing while holding items/scrap=阻止在拿着物品/废料时执行某些动作
 Prevents some emotes \nfrom performing while\nholding items/scrap=阻止在拿着物品/废品时执行某些动作
+Use Config File=使用配置文件
+(Read Only) Ignores all \ningame saved settings and\ninstead uses the config file\n=（只读） 使用配置文件设置来取代游戏内设置
+
 
 WAITING FOR KEY=等待按键
+
+
 
 
 
@@ -230,5 +235,20 @@ Infinite Landmines=无限地雷
 r:"^([0-9]+) Landmines remaining$"=剩余 $1个 地雷
 r:"^Press (.+?) to place a landmine$"=按 $1 放置一个地雷
 
+
+
+# ObjectVolumeController
+
+r:"^Grab boombox:.*\[(.+)\]\n(\d+)% volume\nVolume up:.*\[(.+)\]\nVolume down:.*\[(.+)\]"=捡起音响 [$1]\n音量 $2%\n提高音量 [$3]\n降低音量 [$4]
+r:"^(\d+)% volume\nVolume up:.*\[(.+)\]\nVolume down:.*\[(.+)\]"=音量 $1%\n提高音量 [$2]\n降低音量 [$3]
+
+
+
+# MemeSoundboard
+
+Soundboard=播放器
+r:"^Next Sound\s*:\s*(.+)(.+)$"=下一声音：$1$2
+r:"^Previous Sound\s*:\s*(.+)(.+)$"=上一声音：$1$2
+Grab - Play Meme Sounds!=拿取 - 播放 Meme 音效！
 
 
