@@ -46,6 +46,9 @@ Let MoreMoneyStart control the Starting credits amount.=让 MoreMoneyStart 控�
 Show an output of every settings in the Console. (The Console must listen Info messages)=在控制台中显示每个设置的输出。（控制台必须监听信息消息）
 Roll back to Synchronous moon loading. (Freeze the game longer and highter chance of crash)=回滚到同步卫星加载。（冻结游戏时间更长和崩溃几率更高）
 
+r:"^([0-9]+) kg$"=$1 千克
+r:"^([0-9]+) kg\n([0-9]+) lb$"=$1 千克\n$2 磅
+
 You can't do this with LE=你不能用LE做这个事
 
 Please disable LethalExpansion to play on the Challenge Moon.=请禁用 LethalExpansion\n再游玩卫星挑战。

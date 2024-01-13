@@ -252,3 +252,10 @@ r:"^Previous Sound\s*:\s*(.+)(.+)$"=上一声音：$1$2
 Grab - Play Meme Sounds!=拿取 - 播放 Meme 音效！
 
 
+
+# Huntdown
+A Good Boy=一个好孩子
+Bug Mafia=虫子黑手党
+Blunderbug= 大笨虫
+Infestation= 虫害
+Last Month's Interns=上个月的实习生

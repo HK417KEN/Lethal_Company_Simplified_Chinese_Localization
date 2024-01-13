@@ -1,4 +1,6 @@
-﻿Walk forward=向前
+﻿SET-UP=设置
+
+Walk forward=向前
 Push to talk=按键通话
 REMAP CONTROLS=重新绑定按键
 > Set to defaults=> 恢复默认
@@ -13,6 +15,8 @@ Ping scan=标记扫描
 Item primary use=物品主要用途
 Item Secondary use=物品次要用途
 Item Tertiary use=物品輔助用途
+Item secondary use=物品次要用途
+Item tertiary use=物品輔助用途
 Item drop=丢下物品
 Item switch left=物品栏左切换
 Item switch right=物品栏右切换
@@ -63,8 +67,6 @@ Loading server list...=正在加载服务器列表...
 Confirm=确认
 Discard=放弃
 Started server, joining...=已启动服务器，正在加入...
-Window=窗口化
-Windowed fullscreen=无边框全屏
 Would you like to leave the game?=您想离开游戏吗？
 Welcome!=欢迎！
 Welcome! Version 45 is out now.\nOthers must update their game to play with you on this version.\n\nGood luck!=欢迎！\n版本45现在已发布。\n其他人必须更新至最新版本才能与您一起游玩。\n祝你好运！
@@ -98,9 +100,11 @@ Master volume:=主音量：
 Max players...=最大玩家數...
 
 
-Maximized window=窗口最大化
-ENABLED=启用
 Fullscreen=全屏
+Windowed fullscreen=无边框全屏
+Maximized window=窗口最大化
+Window=窗口化
+ENABLED=启用
 Gamma/Brightness:=伽玛/亮度：
 INSTABILITY:=不稳定性：
 Join=加入

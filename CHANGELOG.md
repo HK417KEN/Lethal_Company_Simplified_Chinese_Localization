@@ -1,3 +1,12 @@
+# 1.0.9
+
+- 新增遗漏物品的翻译
+- 新增部分提示的翻译
+- 统一部分名字和空格格式 例如：{使用 喷漆：[E] -> 使用喷漆：[E], 镭射发射器 -> 激光笔}
+- 模组 Huntdown && LethalExpansion && LethalProgression 的部分翻译
+
+感谢 SummonHIM 提交的问题 [\[ link \]](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/1)
+
 # 1.0.8
 
 - 修复开始游戏时选择在线/局域网后英文字体溢出的问题

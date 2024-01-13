@@ -5,6 +5,7 @@ Upgrades:=点数：
 Level Up! Spend your skill points.=升级了！记得花费你的点数。
 (Pause Menu -> Skills)=(暂停菜单 -> 技能)
 Level up to earn more skill points. You can level up by picking scrap and killing enemies.=升级可获得更多技能点数。你可以通过拾取废品和杀死敌人来升级。
+Return to the ship to unspec.=返回船上可重新分配点数。
 
 HPR:=生命:
 Health Regen=生命回复

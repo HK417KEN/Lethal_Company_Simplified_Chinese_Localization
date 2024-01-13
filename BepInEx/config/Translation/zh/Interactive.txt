@@ -8,22 +8,22 @@ Confirm: [B]   |   Rotate: [R]   |   Store: [X]=放置：[b] |\n旋转：[R] |\n
 [Hands full]=[双手都拿着东西了]
 [Near activity detected!]=[附近检测到活跃信号！]
 [Pulling cord]=[正在拉住]
-sr:"^Drop (.+?)\s*:\s*(.+)(\s*\(Hold\)|)?$"=丢下 $1：$2
+sr:"^Drop (.+?)\s*:\s*(.+)(\s*\(Hold\)|)?$"=丢下$1：$2
 
 
-r:"^Use DIY-Flashbang\s*:\s*(.+)(\s*\(Hold\)|)?$"=使用 自制闪光弹：$1 $2
+r:"^Use DIY-Flashbang\s*:\s*(.+)(\s*\(Hold\)|)?$"=使用自制闪光弹：$1 $2
 r:"^Open gift\s*:\s*(.+)(\s*\(Hold\)|)$"=打开礼物：$1 $2
 r:"^Squeeze\s*:\s*(.+)(\s*\(Hold\)|)$"=挤压：$1 $2
 
-r:"^Shake can\s*:\s*(.+)(\s*\(Hold\)|)$"=摇晃 喷漆罐：$1 $2
+r:"^Shake can\s*:\s*(.+)(\s*\(Hold\)|)$"=摇晃喷漆罐：$1 $2
 
-r:"^Spray\s*:\s*(.+)(\s*\(Hold\)|)$"=使用 喷漆：$1 $2
+r:"^Spray\s*:\s*(.+)(\s*\(Hold\)|)$"=使用喷漆：$1 $2
 r:"^Reload\s*:\s*(.+)(\s*\(Hold\)|)$"=重新上膛：$1 $2
 r:"^Turn safety off\s*:\s*(.+)(\s*\(Hold\)|)$"=关闭保险：$1 $2
 r:"^Turn safety on\s*:\s*(.+)(\s*\(Hold\)|)$"=打开保险：$1 $2
 r:"^Fire\s*:\s*(.+)(\s*\(Hold\)|)$"=开火：$1 $2
 
-r:"^Toggle laser\s*:\s*(.+)(\s*\(Hold\)|)$"=开关镭射指示器：$1 $2
+r:"^Toggle laser\s*:\s*(.+)(\s*\(Hold\)|)$"=开关激光笔：$1 $2
 r:"^Use cash register\s*:\s*(.+)(\s*\(Hold\)|)$"=使用收银机：$1 $2
 r:"^Tell autopilot ship to leave early\s*:\s*(.+) \(Hold\)$"=通知飞船提前撤离：$1 (长按)
 
@@ -37,7 +37,7 @@ r:"^Pull pin\s*:\s*(.+)(\s*\(Hold\)|)$"=拔出拉环：$1 $2
 r:"^Pull cord\s*:\s*(.+)\s*\(Hold\)$"=拉绳：$1 (长按)
 r:"^Place on door\s*:\s*(.+)(\s*\(Hold\)|)$"=放在门上：$1 $2
 r:"^Scan for threat\s*:\s*(.+)(\s*\(Hold\)|)$"=扫描威胁：$1 $2
-r:"^Toggle laser\s*:\s*(.+)(\s*\(Hold\)|)$"=开关镭射指示器：$1 $2
+r:"^Toggle laser\s*:\s*(.+)(\s*\(Hold\)|)$"=开关激光笔：$1 $2
 r:"^Turn on booster\s*:\s*(.+)(\s*\(Hold\)|)$"=打开雷达发射器：$1 $2
 r:"^Switch TV\s*:\s*(.+)(\s*\(Hold\)|)$"=切换电视：$1 $2
 r:"^Sprint\s*:\s*(.+)(\s*\(Hold\)|)$"=冲刺：$1 $2
@@ -45,7 +45,8 @@ r:"^Open\s*:\s*(.+)(\s*\(Hold\)|)$"=开启：$1 $2
 r:"^Turn on/off\s*:\s*(.+)(\s*\(Hold\)|)$"=监视器开关：$1 $2
 r:"^Switch camera\s*:\s*(.+)(\s*\(Hold\)|)$"=切换监视目标：$1 $2
 r:"^Use key\s*:\s*(.+)(\s*\(Hold\)|)$"=使用钥匙：$1 $2
-r:"^Use airhorn\s*:\s*(.+)(\s*\(Hold\)|)$"=使用 汽笛：$1 $2
+r:"^Drop Key\s*:\s*(.+)(\s*\(Hold\)|)?$"=丢下钥匙：$1
+r:"^Use airhorn\s*:\s*(.+)(\s*\(Hold\)|)$"=使用汽笛：$1 $2
 r:"^Quit terminal\s*:\s*(.+)(\s*\(Hold\)|)$"=退出终端：$1 $2
 r:"^Scan\s*:\s*(.+)(\s*\(Hold\)|)$"=扫描：$1 $2
 r:"^Toggle music\s*:\s*(.+)(\s*\(Hold\)|)$"=切换音乐：$1 $2
@@ -75,22 +76,22 @@ r:"^Charge item\s*:\s*(.+)(\s*\(Hold\)|)$"=物品充电：$1 $2
 r:"^Get log\s*:\s*(.+)(\s*\(Hold\)|)$"=拿起日志：$1 $2
 r:"^Lift glass\s*:\s*(.+)(\s*\(Hold\)|)$"=掀开防护盖：$1 $2
 r:"^Flip switch\s*:\s*(.+)(\s*\(Hold\)|)$"=拨动开关：$1 $2
-r:"^Use horn\s*:\s*(.+)(\s*\(Hold\)|)$"=使用 小丑喇叭：$1 $2
+r:"^Use horn\s*:\s*(.+)(\s*\(Hold\)|)$"=使用小丑喇叭：$1 $2
 r:"^Open hatch\s*:\s*(.+)(\s*\(Hold\)|)$"=打开通风口：$1 $2
 r:"^Use hairdryer\s*:\s*(.+)(\s*\(Hold\)|)$"=使用吹风机：$1 $2
-r:"^Take TZP\s*:\s*(.+)(\s*\(Hold\)|)$"=使用TZP吸入剂：$1 $2
+r:"^Take TZP\s*:\s*(.+)(\s*\(Hold\)|)$"=使用TZP-吸入剂：$1 $2
 r:"^Swing shovel\s*:\s*(.+)(\s*\(Hold\)|)$"=挥动铲子：$1 $2
 r:"^Access terminal\s*:\s*(.+)(\s*\(Hold\)|)$"=访问终端：$1 $2
 r:"^Hold\s*:\s*(.+)(\s*\(Hold\)|)$"=长按：$1 $2
 r:"^Beam up\s*:\s*(.+)(\s*\(Hold\)|)$"=传送：$1 $2
 r:"^Flush\s*:\s*(.+)(\s*\(Hold\)|)$"=冲水：$1 $2
-r:"^Play record\s*:\s*(.+)(\s*\(Hold\)|)$"=使用唱片机：$1 $2
+r:"^Play record\s*:\s*(.+)(\s*\(Hold\)|)$"=使用留声机：$1 $2
 
 r:"^Use binoculars\s*:\s*(.+)(\s*\(Hold\)|)$"=使用双筒望远镜：$1 $2
 r:"^Zap gun\s*:\s*(.+)(\s*\(Hold\)|)$"=电击枪：$1 $2
 r:"^Lockpicker\s*:\s*(.+)(\s*\(Hold\)|)$"=开锁器：$1 $2
-r:"^TZP-Inhalant\s*:\s*(.+)(\s*\(Hold\)|)$"=TZP 吸入剂：$1 $2
-r:"^Pro-flashlight\s*:\s*\[(.+)\](\s*\(Hold\)|)$"=高级手电筒：$1 $2
+r:"^TZP-Inhalant\s*:\s*(.+)(\s*\(Hold\)|)$"=TZP-吸入剂：$1 $2
+r:"^Pro-flashlight\s*:\s*\[(.+)\](\s*\(Hold\)|)$"=专业手电筒：$1 $2
 r:"^Flashlight\s*:\s*\[(.+)\](\s*\(Hold\)|)$"=手电筒：$1 $2
 
 
@@ -100,7 +101,7 @@ r:"^Power button\s*:\s*(.+)(\s*\(Hold\)|)$"=电源按钮：$1 $2
 r:"^Use remote\s*:\s*(.+)(\s*\(Hold\)|)$"=使用遥控器：$1 $2
 r:"^Pull valve\s*:\s*(.+)(\s*\(Hold\)|)$"=转动阀门：$1 $2
 
-
+r:"^TIP!: Hold (.+) to vote for the autopilot ship to leave early\.$"=提示：按住[右键]投票决定是否提前撤离。
 
 
 
@@ -108,3 +109,4 @@ r:"^Pull valve\s*:\s*(.+)(\s*\(Hold\)|)$"=转动阀门：$1 $2
 [Pulling valve]=[正在转动阀门]
 
 r:"^Picking lock: ([0-9]+) sec."=解锁中：$1秒。
+

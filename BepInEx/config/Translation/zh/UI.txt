@@ -113,6 +113,7 @@ Change: Hazard suit=更换制服：危险套装
 Got scrap!=得到废品！
 ALERT!=警报！
 Drop your metallic items now! A static charge has been detected. You have seconds left to live.=立即放下金属物品！\n已经检测到了静电荷。\n您还有几秒钟可以存活。
+ALERT!\nDrop your metallic items now! A static charge has been detected. You have seconds left to live.=警告！\n立即放下金属物品！\n已经检测到了静电荷。\n您还有几秒钟可以存活。
 Ship leaving in one hour=飞船将在一小时内撤离
 Use the ship computer terminal to access secure doors.=使用飞船控制终端来开启安全门。
 Alert! The autopilot is leaving due to dangerous conditions.=警报！\n由于情况危险，自动驾驶仪将操控撤离。
@@ -136,6 +137,7 @@ Can't stay closed forever=没办法一直关着门
 The vehicle returned with your purchased items. Our delivery fee cannot be refunded.=我们的送货装置已退还您购买的物品。\n我们的运费无法退还。
 New creature data sent to terminal!=新的生物数据已发送至终端机！
 The autopilot will now attempt to fly to the closest safe spaceport. Your items have been lost.=自动驾驶仪现在将尝试飞向最近的安全太空港。\n您的物品丢失了。
+Got scrap!\nTo sell, use the terminal to route the ship to the company building.=捡到废料了！\n如想出售物品，请使用控制终端将飞船导航至公司大楼。
 To sell, use the terminal to route the ship to the company building.=如想出售物品，请使用控制终端将飞船导航至公司大楼。
 YOU ARE FIRED.=你被开除了
 You did not meet the profit quota before the deadline.=你未能在截止日期前达到目标金额
@@ -206,3 +208,23 @@ Was eaten by an Eyeless Dog.=被一只无眼犬吃掉
 auled to death.=被殴打死亡
 Abandoned by their coworkers.=被同事抛弃
 Electro-stung to death by Circuit Bees.=被电路蜜蜂电死
+
+
+
+
+
+
+You have landed in an eclipse. Exercise caution!=您已经降落在发生日食事件的星球中。\n谨慎行事！
+To read the manual:=阅读手册：
+Press Z to inspect closely. Press Q and E to flip the pages.=按Z仔细检查。\n按Q和E翻页。
+You can see stored items in the terminal by using command 'STORAGE'=您可以使用命令“STORAGE”在终端中看到存储的项目
+Waiting for input=等待输入
+You have 0 days left to meet the quota. Use the terminal to route to the company and sell.=您还剩0天的时间来满足配额。\n使用控制终端前往公司并出售。
+HALT!\nYou have 0 days left to meet the quota. Use the terminal to route to the company and sell.=快停下！\n你只剩 0 天的时间去完成目标金额了。\n使用终端来导航飞船至公司大楼出售物品。
+Enter Text...=输入文字...
+
+
+TIP:\nUse the ship computer terminal to access secure doors.=提示：\n使用飞船电脑终端来解锁安全门。
+
+
+
