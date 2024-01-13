@@ -42,7 +42,7 @@ Arachnophobia Mode=蜘蛛恐惧症模式
 ACCESSIBILITY=辅助功能ㄈ
 r:"^Do you want to delete File (.+)\?$"=你想要删除存档 $1 吗？
 Go back=返回
-PRIVATE means you must send invites through Steam for players to join.=【私人】代表你必须通过 Steam 发送邀请以供玩家加入。
+PRIVATE means you must send invites through Steam for players to join.=【仅限好友】代表你必须通过 Steam 发送邀请以供玩家加入。
 PUBLIC means your game will be visible on the server list for all to see.=【公开】代表你的游戏將在服务器列表中可见，以供所有人加入。
 An error occured!=发生错误！
 
