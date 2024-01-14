@@ -7,6 +7,7 @@ Version 45 is out!=版本 45 发布了！
 The server host disconnected.=与服务器断开连接
 Kick=踢出
 Cancel=取消
+ Cancel= 取消
 [LIFE SUPPORT: OFFLINE]=[生命维持系统：离线]
 (Dead)=（死亡）
 Stats=统计

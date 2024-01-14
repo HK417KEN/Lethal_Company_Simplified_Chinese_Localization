@@ -1,3 +1,8 @@
+# 1.0.11
+- 补充未翻译词条
+
+感谢 [SummonHIM](https://github.com/SummonHIM) 提交的问题 [\[ link \]](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/1)
+
 # 1.0.10
 - 房间选 \[ 公开 | 仅限好友 \] 的提示语统一翻译 by [EX3124](https://github.com/EX3124) PR [#5](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/pull/5)
 

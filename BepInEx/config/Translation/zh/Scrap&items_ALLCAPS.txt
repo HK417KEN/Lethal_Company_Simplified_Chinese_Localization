@@ -220,3 +220,4 @@ CANNED FOOD=罐头食品
 MATCHBOX=火柴盒
 PILLS=药瓶
 TAPE=胶带
+MAPPER=地图机

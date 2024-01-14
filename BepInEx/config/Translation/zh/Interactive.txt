@@ -104,6 +104,10 @@ r:"^Pull valve\s*:\s*(.+)(\s*\(Hold\)|)$"=转动阀门：$1 $2
 r:"^TIP!: Hold (.+) to vote for the autopilot ship to leave early\.$"=提示：按住[右键]投票决定是否提前撤离。
 
 
+r:"^Wear mask\s*:\s*(.+)(\s*\(Hold\)|)?$"=戴上面具：$1
+r:"^Drop Mug\s*:\s*(.+)(\s*\(Hold\)|)?$"=丢下马克杯：$1
+sr:"^Update map\s*\:\s*(.+)(\s*\(Hold\)|)?$"=更新地图：$1
+sr:"^Inspect map\s*\:\s*(.+)(\s*\(Hold\)|)?$"=检视地图：$1
 
 
 [Pulling valve]=[正在转动阀门]
