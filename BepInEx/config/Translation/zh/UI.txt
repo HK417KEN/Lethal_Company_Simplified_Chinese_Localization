@@ -169,32 +169,29 @@ Part-timer=兼职人员
 (Cannot hold until ship has landed)=（请等待主机开始游戏）
 (Requires battery-powered item)=(需要使用电池供电的物品)
 
-Value: =價值：
+Value: =价值：
 
 Charges batteries=给电池充电
 
 # Result
-sr:"^Notes:\s?\\n(\*\s*.*?)(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[^\\n]$"=筆記：\n$1\n$2\n$3
-sr:"^Notes:\s?\\n(\*\s*.*?)(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[\\n]$"=筆記：\n$1\n$2\n$3
+sr:"^Notes:\s?\\n(\*\s*.*?)(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[^\\n]$"=笔记：\n$1\n$2\n$3
+sr:"^Notes:\s?\\n(\*\s*.*?)(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[\\n]$"=笔记：\n$1\n$2\n$3
 
-\* Most lazy employee=* 最懶惰的員工
-\* Most lazy employee.=* 最懶惰的員工
-\* The laziest employee=* 最懶惰的員工
-\* The laziest employee.=* 最懶惰的員工
+* Most lazy employee=* 最懒惰的员工
+* Most lazy employee.=* 最懒惰的员工。
+* The laziest employee=* 最懒惰的员工
+* The laziest employee.=* 最懒惰的员工。
 
+* Most profitable=* 最会赚钱的员工
+* Most profitable.=* 最会赚钱的员工。
 
-* Most profitable=* 最會賺錢的員工
-* Most profitable=* 最會賺錢的員工
-* Most profitable.=* 最會賺錢的員工
+* Most paranoid employee=* 最固执的员工
+* Most paranoid employee.=* 最固执的员工。
+* The most paranoid employee=* 最固执的员工
+* The most paranoid employee.=* 最固执的员工。
 
-* Most paranoid employee=* 最固執的員工
-* Most paranoid employee.=* 最固執的員工
-* The most paranoid employee=* 最固執的員工
-* The most paranoid employee.=* 最固執的員工
-
-
-* Sustained the most injuries=* 受傷嚴重的員工
-* Sustained the most injuries.=* 受傷嚴重的員工
+* Sustained the most injuries=* 受伤严重的员工
+* Sustained the most injuries.=* 受伤严重的员工。
 
 
 Right-click to scan objects in the ship for info.=右键单击扫描船上的对象以获取信息。

@@ -1,3 +1,10 @@
+# 1.1.0
+- 绩效报告翻译
+- Mod: LethalCompany_InputUtils 绑键菜单翻译
+- Mod: ReservedItemSlot 绑键菜单翻译
+- Mod: FastSwitchPlayerViewInRadar 绑键菜单翻译
+- Mod: Lategame_Upgrades 物品翻译
+
 # 1.0.11
 - 补充未翻译词条
 

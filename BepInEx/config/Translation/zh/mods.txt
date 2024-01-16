@@ -43,7 +43,6 @@ r:"^CREDITS:\n(.+?)$"=可用金钱：\n$1
 r:"^TIME:\n(.+?)$"=时间：\n$1
 
 No enemies to spectate=没有敌人可以观察
-Night Vision Battery=夜视仪电量
 
 r:"^Send voice\s*:\s*(.+)(.+)$"=发送语音：$1$2
 r:"^Toggle light\s*:\s*(.+)(.+)$"=开关手电：$1$2
@@ -143,9 +142,7 @@ Extremely high moonheat detected causing dangerous weather. =检测到极高的�
 Moonheat is HOT, flooding the moon to cool it off. =卫星非常热，需要让卫星淹水降温
 Welcome to the Company Buidling!=欢迎来到公司大楼！
 The Moon is overheated and now hostile creatures roam it.=卫星已经过热，现在到处都是地对生物。
-Press Z to toggle Night Vision!!!=按下 Z 使用夜视仪！！！
 They used to say Fort Knox was buried here...=人们常说诺克斯堡就埋在这里...
-Outsourcing at its finest=最好的外包服务
 
 
 
@@ -160,11 +157,9 @@ Toy Hammer=玩具锤
 Emergency Flare=紧急信号弹
 Remote Radar=远程雷达
 Hacking Tool=黑客工具
-Advanced Portable Tele=高级便携型传送装置
 Toggle test room=切换测试室
 Spawn creature=产卵生物
 Inside=里面
-Portable Tele=抛弃式传送装置
 Gremlin Can=Gremlin 汽水
 Gremlin Energy=Gremlin 能量饮料
 Revolver=左轮手枪
@@ -172,8 +167,6 @@ Shells=弹药
 Emergency Flare (ammo)=信号弹（弹药）
 Flaregun=信号发射器
 Rocket Launcher=火箭发射器
-Night Vision Goggles=夜视仪
-Peeper=监视器
 Thumper Sample=半身怪样本
 Baboon Hawk Sample=狒狒鹰样本
 Eyeless Dog Sample=无眼犬样本
@@ -183,7 +176,6 @@ Hoarding Bug Sample=囤积虫样本
 Bunker Spider Sample=碉堡蜘蛛样本
 Snare Flea Sample=陷阱跳蚤样本
 Keep your items!=保留你的物品！
-Advanced Portable Teleporter=高级便携型传送装置
 For throwing purposes.=就是拿来丢的
 
 r:"^Bigger Lungs is active!$"=耐力增强已启用！
@@ -259,3 +251,62 @@ Bug Mafia=虫子黑手党
 Blunderbug= 大笨虫
 Infestation= 虫害
 Last Month's Interns=上个月的实习生
+
+
+
+# LethalCompany InputUtils
+Keyboard/Mouse=键盘/鼠标
+Controller=控制器
+r:"^\> Show Legacy Controls \(([0-9]+) present\)$"=> 显示传统控件（目前 $1 个）
+
+
+
+# ReservedFlashlightSlot
+
+# ReservedFlashlightSlot=ReservedFlashlightSlot\n（插槽服务插件手电筒功能）
+[ReservedItemSlots]\nToggle flashlight=[ReservedItemSlots]\n开关手电筒
+
+
+# ReservedItemSlotCore
+
+# ReservedItemSlotCore=ReservedItemSlotsCore\n（插槽服务插件核心功能）
+[ReservedItemSlots]\nSwap hotbar=[ReservedItemSlots]\n切换插槽
+
+
+# ReservedWalkieSlot
+
+# ReservedWalkieSlot=ReservedWalkieSlot\n（插槽服务插件对讲机功能）
+[ReservedItemSlots]\nActivate walkie=[ReservedItemSlots]\n激活对讲机
+
+
+
+# FastSwitchPlayerViewInRadar
+Radar Previous Cam=上一个雷达摄像头
+Radar Next Cam=下一个雷达摄像头
+
+
+
+# Lategame_Upgrades
+
+Portable Tele=抛弃式传送装置
+Advanced Portable Tele=高级便携型传送装置
+Advanced Portable Teleporter=高级便携型传送装置
+
+Night Vision Goggles=夜视仪
+r:"^Press (.+) to toggle Night Vision\!\!\!$"=按 $1 开关夜视仪！！!
+Night Vision Battery=夜视仪电量
+
+Peeper=监视器
+Outsourcing at its finest=最好的外包服务
+
+Medkit=医疗包
+
+Helmet=头盔
+Safety First=安全第一
+
+Diving Kit=潜水套件
+Breathe Underwater=在水下呼吸
+
+Wheelbarrow=手推车
+Allows carrying multiple items=允许携带多个物品
+

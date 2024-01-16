@@ -12,6 +12,7 @@ Sprint=冲刺
 Crouch=蹲下
 Interact=互动
 Ping scan=标记扫描
+Item Primary use=物品主要用途
 Item primary use=物品主要用途
 Item Secondary use=物品次要用途
 Item Tertiary use=物品輔助用途
