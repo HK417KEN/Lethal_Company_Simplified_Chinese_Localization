@@ -71,10 +71,10 @@ BepInEx\plugins\HK417KEN-Lethal_Company_Simplified_Chinese_Localization
 ## 手动安装
 
 1. 下载并解压 BepInEx
-进入 [BepInEx-BepInExPack](https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/) 5.4.2100 点击 M 下载后，将压缩包内 ```BepInExPack``` 文件夹里的 ```BepInEx``` 解压
+进入 [BepInEx-BepInExPack](https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/) 5.4.2100 点击 M 下载后，将压缩包内 ```BepInExPack``` 文件夹里所有文件（\BepInEx, doorstop_config.ini, winhttp.dll）解压游戏根目录
 
 2. 下载并解压汉化 Mod
-在当前网页端点击 Manual Download 后将 BepInEx 文件夹解压至游戏根目录。
+在当前网页端点击 Manual Download 下载完成后，将压缩包内 ```BepInEx``` 解压并覆盖游戏根目录的 ```BepInEx```
 
 解压完成后即可按下方 字体安装 步骤安装字体，否则字体显示为方框！
 

@@ -1,3 +1,7 @@
+# 1.1.11 [DEPRECATED]
+- 将该项目标记为***已弃用***
+- 修复 手动安装 的步骤
+
 # 1.1.1 [DEPRECATED]
 - 将该项目标记为***已弃用***
 - Steam覆盖层修复 ------ 感谢 [Andyvon230](https://github.com/Andyvon230) issue [#8](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/8)
