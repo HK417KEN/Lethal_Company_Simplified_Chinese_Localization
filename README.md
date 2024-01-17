@@ -1,6 +1,7 @@
-# 更好的汉化项目
+# [DEPRECATED] 已弃用 停止更新
 我做这个汉化包只是因为前人没有及时更新所以我才另起炉灶的，现在有技术更好的人来做了那我可以躺平了。如果哪天我还在玩这游戏，但是其他人没更新中文了，那我还会再来……吗？
 
+# 更好的汉化项目
 请使用该汉化包代替：[Lethal Company Simplified Chinese Localization](https://thunderstore.io/c/lethal-company/p/SweetFox/Lethal_Company_Simplified_Chinese_Localization/) *by [SweetFox](https://thunderstore.io/c/lethal-company/p/SweetFox/)*
 
 # 原项目以及原作者
