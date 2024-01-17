@@ -1,8 +1,8 @@
 {
     "name": "Lethal_Company_Simplified_Chinese_Localization",
-    "version_number": "1.1.0",
+    "version_number": "1.1.1",
     "website_url": "https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization",
-    "description": "Lethal Company 简体中文汉化",
+    "description": "[DEPRECATED] [已弃用] Lethal Company 简体中文汉化",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100"
     ]

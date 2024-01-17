@@ -12,6 +12,8 @@ Cosmetics Enabled:=启用装饰品：
 飞船将在一小时内撤离\n\n\n\n\nSwitch to Players: [E]\nToggle Flashlight : [RMB] (Click)\nConfig Menu : [Insert]=飞船将在一小时内撤离\n\n\n\n\n切換到玩家：[E]\n切换手电筒：[右键]（单击）\n配置菜单：[Insert]
 飞船将在一小时内撤离\n\n\n\n\nSwitch to Enemies: [E]\nToggle Flashlight : [RMB] (Click)\nConfig Menu : [Insert]=飞船将在一小时内撤离\n\n\n\n\n切换到敌人：[E]\n切换手电筒：[右键]（单击）\n配置菜单：[Insert]
 
+No enemies to spectate=没有敌人可以观察
+
 
 
 #Bigger Lobby
@@ -41,8 +43,6 @@ r:"^Page (.+?)\/(.+?)$"=第$1/$2页
 r:"^DAY:\n(.+?)$"=天数：\n$1
 r:"^CREDITS:\n(.+?)$"=可用金钱：\n$1
 r:"^TIME:\n(.+?)$"=时间：\n$1
-
-No enemies to spectate=没有敌人可以观察
 
 r:"^Send voice\s*:\s*(.+)(.+)$"=发送语音：$1$2
 r:"^Toggle light\s*:\s*(.+)(.+)$"=开关手电：$1$2

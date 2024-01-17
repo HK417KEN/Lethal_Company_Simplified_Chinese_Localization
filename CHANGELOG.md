@@ -1,25 +1,27 @@
+# 1.1.1
+- 将该项目标记为已弃用
+- Steam覆盖层修复 ------ 感谢 [Andyvon230](https://github.com/Andyvon230) issue [#8](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/8)
+- README 和 CHANGELOG 格式调整 和添加弃用信息
+
 # 1.1.0
 - 绩效报告翻译
-- Mod: LethalCompany_InputUtils 绑键菜单翻译
-- Mod: ReservedItemSlot 绑键菜单翻译
-- Mod: FastSwitchPlayerViewInRadar 绑键菜单翻译
-- Mod: Lategame_Upgrades 物品翻译
+- Mod 翻译:
+ - LethalCompany_InputUtils 绑键菜单翻译
+ - ReservedItemSlot 绑键菜单翻译
+ - FastSwitchPlayerViewInRadar 绑键菜单翻译
+ - Lategame_Upgrades 物品翻译
 
 # 1.0.11
-- 补充未翻译词条
-
-感谢 [SummonHIM](https://github.com/SummonHIM) 提交的问题 [\[ link \]](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/1)
+- 补充未翻译词条 ------ 感谢 [SummonHIM](https://github.com/SummonHIM) issue [#1](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/1)
 
 # 1.0.10
-- 房间选 \[ 公开 | 仅限好友 \] 的提示语统一翻译 by [EX3124](https://github.com/EX3124) PR [#5](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/pull/5)
+- 房间选 \[ 公开 | 仅限好友 \] 的提示语统一翻译 ------ 感谢 [EX3124](https://github.com/EX3124) PR [#5](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/pull/5)
 
 # 1.0.9
-- 新增遗漏物品的翻译
-- 新增部分提示的翻译
+- 新增遗漏物品的翻译 ------ 感谢 [SummonHIM](https://github.com/SummonHIM) issue [#1](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/1)
+- 新增部分提示的翻译 ------ 感谢 [SummonHIM](https://github.com/SummonHIM) issue [#1](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/1)
 - 统一部分名字和空格格式 例如：{使用 喷漆：[E] -> 使用喷漆：[E], 镭射发射器 -> 激光笔}
 - 模组 Huntdown && LethalExpansion && LethalProgression 的部分翻译
-
-感谢 [SummonHIM](https://github.com/SummonHIM) 提交的问题 [\[ link \]](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/1)
 
 # 1.0.8
 - 修复开始游戏时选择在线/局域网后英文字体溢出的问题
@@ -28,7 +30,10 @@
 - Moon 将 "星球" 改为 "卫星", orbit 将 "星球" 改为 "轨道"
 
 # 1.0.6
-- 新增以下mod翻译：<br>- LethalExpansion<br>- MemeSoundboard<br>- ObjectVolumeController
+- 新增以下mod翻译：
+ - LethalExpansion
+ - MemeSoundboard
+ - ObjectVolumeController
 
 感谢 [SummonHIM](https://github.com/SummonHIM) 提交的翻译文本 [\[ link \]](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/1)
 
