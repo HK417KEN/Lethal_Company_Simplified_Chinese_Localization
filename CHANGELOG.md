@@ -1,5 +1,5 @@
-# 1.1.1
-- 将该项目标记为已弃用
+# 1.1.1 [DEPRECATED]
+- 将该项目标记为***已弃用***
 - Steam覆盖层修复 ------ 感谢 [Andyvon230](https://github.com/Andyvon230) issue [#8](https://github.com/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/issues/8)
 - README 和 CHANGELOG 格式调整 和添加弃用信息
 
